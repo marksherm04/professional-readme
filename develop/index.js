@@ -1,6 +1,8 @@
 // TODO: Include packages needed for this application
-const userProfile = process.argv.slice(2, process.argv.length);
-console.log(userProfile)
+const inquirer = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
+const fs = require("fs");
+
 
 // // TODO: Create an array of questions for user input
 // const questions = [];
@@ -14,8 +16,3 @@ console.log(userProfile)
 // // Function call to initialize app
 // init();
 
-const printProfileData = (profileDataArr) => {
-	console.log(profileDataArr);
-};
-
-printProfileData(userProfile);
