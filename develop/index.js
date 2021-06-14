@@ -66,6 +66,7 @@ const questions = () => {
 					}
 				}
 			},
+			//CONTRIBUTING PROJECT MEMBERS
 			{
 			type: "input",
 			name: "contributing",
@@ -78,6 +79,7 @@ const questions = () => {
 					}
 				}
 			},
+			// TESTS FOR APPLICATION
 			{
 			type: "input",
 			name: "tests",
@@ -91,6 +93,7 @@ const questions = () => {
 					}
 				}
 			},
+			// LICENSE INFORMATION
 			{
 			type: "checkbox",
 			name: "license",
@@ -105,6 +108,7 @@ const questions = () => {
 					}
 				}
 			},
+			// GITHUB USER INFO
 			{
 			type: "input",
 			name: "githubUser",
@@ -118,6 +122,7 @@ const questions = () => {
 					}
 				}
 			},
+			// USER EMAIL INFO
 			{
 			type: "input",
 			name: "email",
@@ -137,7 +142,13 @@ const questions = () => {
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+function writeToFile(fileName, data) { 
+	fs.writeFile(fileName, data, (err) => {
+		if (err)
+		throw err;
+		console.log("Your README has been created.")
+	})
+}
 
 // TODO: Create a function to initialize app
 function init() { }
