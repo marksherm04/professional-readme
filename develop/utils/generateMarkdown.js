@@ -16,6 +16,9 @@ function generateMarkdown(data) {
   // questions section lists github standard site with user input to show url to the user GitHub page and email as well
   return `# ${data.title}
  
+## Description
+${data.description}
+
   ## Table of Contents
 - [Description] (https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#description)
 - [Installation] (https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#installation)
@@ -24,9 +27,6 @@ function generateMarkdown(data) {
 - [Tests] (https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#tests)
 - [License} (https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#license)
 - [Questions] (https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#questions
-
-## Description
-${data.description}
 
 ## Installation
 ${data.installation}
