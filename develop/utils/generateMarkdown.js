@@ -16,7 +16,7 @@ function generateMarkdown(data) {
   // questions section lists github standard site with user input to show url to the user GitHub page and email as well
   return `# ${data.title}
  
-  [![License](https://img.shields.io/badge/${data.license}-blue.svg)]
+  [![License](https://img.shields.io/badge/license-${data.license}-blue.svg)]
 
 ## Description
 ${data.description}
