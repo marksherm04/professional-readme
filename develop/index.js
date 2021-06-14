@@ -4,7 +4,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const fs = require("fs");
 
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const questions = [
 			// PROJECT TITLE
 			{
@@ -54,7 +54,7 @@ const questions = [
 			// USAGE INFORMATION
 			type: "input",
 			name: "usage",
-			message: "Please enter how this information will be used.",
+			message: "Please enter your information usage.",
 			validate: usageInput => {
 				if (usageInput) {
 					return true;
@@ -140,7 +140,7 @@ const questions = [
 // Function to write README file
 function writeToFile(fileName, data) { 
 	fs.writeFile(fileName, data, (err) => {
-		// if there is an error with the file writing, it will throw and error, otherwise it a README will be created
+		// if there is an error with the file writing, it will throw an error, otherwise it a README will be created
 		if (err)
 		throw err;
 		console.log("Your README has been created.")
@@ -149,9 +149,10 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
+	// function with inquirer.prompt will call questions to start from the first question and run through the list of questions in the array
 	inquirer.prompt(questions)
+	// .then returns a promise and function of userInput will generate(write) the README file.  This will then call generateMarkdown where it will pull userInput
 	.then(function(userInput) {
-		console.log(userInput)
 		writeToFile("README.md", generateMarkdown(userInput));
 	});
  };
