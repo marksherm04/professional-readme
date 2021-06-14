@@ -10,10 +10,12 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
+// Function to generate markdown for README
 function generateMarkdown(data) {
+  // returns the title of the project, using ${data.input} it pulls the information from index.js that the user inputs and puts it underneath the correct title
+  // questions section lists github standard site with user input to show url to the user GitHub page and email as well
   return `# ${data.title}
-
+ 
   ## Table of Contents
 - [Description] (#description)
 - [Installation] (#installation)
