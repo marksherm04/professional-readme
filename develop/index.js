@@ -66,14 +66,75 @@ const questions = () => {
 					}
 				}
 			},
+			{
+			type: "input",
+			name: "contributing",
+			message: "Please list the project contributors.",
+			validate: contributingInput => {
+				if (contributingInput) {
+					return true;
+				} else {
+					console.log("You must enter the project contributors to continue!");
+					}
+				}
+			},
+			{
+			type: "input",
+			name: "tests",
+			message: "Please write tests for your application.",
+			validate: testsInput => {
+				if (testsInput) {
+					return true;
+				} else {
+					console.log("You must write a test to continue!");
+					return false;
+					}
+				}
+			},
+			{
+			type: "checkbox",
+			name: "license",
+			message: "Select which license you used.",
+			choices: ["Academic Free", "Apache", "Boost Software", "ISC", "MIT", "Mozilla Public"],
+			validate: licenseInput => {
+				if (licenseInput) {
+					return true;
+				} else {
+					console.log("You must choose a license to continue!");
+					return false;
+					}
+				}
+			},
+			{
+			type: "input",
+			name: "githubUser",
+			message: "Please enter your GitHub username.",
+			validate: githubUserInput => {
+				if (githubUserInput) {
+					return true;
+				} else {
+					console.log("You must enter your GitHub username to continue!");
+					return false;
+					}
+				}
+			},
+			{
+			type: "input",
+			name: "email",
+			message: "Please enter your email address.",
+			validate: emailInput => {
+				if (emailInput) {
+					return true;
+				} else {
+					console.log("You must enter your email address to continue");
+					return false;
+					}
+				}
+			}
 
-			
-			
+		]);
+	};
 
-
-
-	]);
-};
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) { }
