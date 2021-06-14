@@ -5,11 +5,9 @@ const fs = require("fs");
 
 
 // TODO: Create an array of questions for user input
-const questions = () => {
-	return inquirer
-		.prompt([
-			{
+const questions = [
 			// PROJECT TITLE
+			{
 			type: "input",
 			name: "title",
 			message: "What is the title of your project? (Required)",
@@ -137,13 +135,12 @@ const questions = () => {
 				}
 			}
 
-		]);
-	};
+		];
 
-
-// TODO: Create a function to write README file
+// Function to write README file
 function writeToFile(fileName, data) { 
 	fs.writeFile(fileName, data, (err) => {
+		// if there is an error with the file writing, it will throw and error, otherwise it a README will be created
 		if (err)
 		throw err;
 		console.log("Your README has been created.")
@@ -151,8 +148,15 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() { }
+function init() {
+	inquirer.prompt(questions)
+	.then(function(userInput) {
+		console.log(userInput)
+		writeToFile("README.md", generateMarkdown(userInput));
+	});
+ };
 
 // Function call to initialize app
 init();
+
 
