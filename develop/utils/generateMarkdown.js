@@ -1,6 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -16,7 +17,7 @@ function generateMarkdown(data) {
   // questions section lists github standard site with user input to show url to the user GitHub page and email as well
   return `# ${data.title}
  
- ![License](https://img.shields.io/badge/license-${data.license}-blue.svg)
+![License](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
 ## Description
 ${data.description}

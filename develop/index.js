@@ -97,14 +97,6 @@ const questions = [
 			name: "license",
 			message: "Select which license you used.",
 			choices: ["Academic Free", "Apache", "Boost Software", "ISC", "MIT", "Mozilla Public"],
-			validate: licenseInput => {
-				if (licenseInput) {
-					return true;
-				} else {
-					console.log("You must choose a license to continue!");
-					return false;
-					}
-				}
 			},
 			// GITHUB USER INFO
 			{
