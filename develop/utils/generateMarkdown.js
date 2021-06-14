@@ -17,13 +17,13 @@ function generateMarkdown(data) {
   return `# ${data.title}
  
   ## Table of Contents
-- [Description] (#Description)
-- [Installation] (#Installation)
-- [Usage] (#Usage)
-- [Contributing] (#Contributing)
-- [Tests] (#Tests)
-- [License} (#License)
-- [Questions] (#Questions)
+- [Description] (https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#description)
+- [Installation] (https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#installation)
+- [Usage] (https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#usage)
+- [Contributing] (https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#contributing)
+- [Tests] (https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#tests)
+- [License} (https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#license)
+- [Questions] (https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#questions
 
 ## Description
 ${data.description}
