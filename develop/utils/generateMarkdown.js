@@ -16,8 +16,6 @@ function generateMarkdown(data) {
   // returns the title of the project, using ${data.input} it pulls the information from index.js that the user inputs and puts it underneath the correct title
   // questions section lists github standard site with user input to show url to the user GitHub page and email as well
   return `# ${data.title}
- 
-![License](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
 ## Description
 ${data.description}
