@@ -96,7 +96,7 @@ const questions = [
 			type: "checkbox",
 			name: "license",
 			message: "Select which license you used.",
-			choices: ["Academic Free", "Apache", "Boost Software", "ISC", "MIT", "Mozilla Public"],
+			choices: ["Apache 2.0", "ISC", "MIT", "MPL 2.0"],
 			},
 			// GITHUB USER INFO
 			{
