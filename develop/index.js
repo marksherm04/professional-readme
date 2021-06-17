@@ -93,10 +93,10 @@ const questions = [
 			},
 			// LICENSE INFORMATION
 			{
-			type: "checkbox",
+			type: "list",
 			name: "license",
-			message: "Select which license you used.",
-			choices: ["Apache 2.0", "ISC", "MIT", "MPL 2.0"],
+			message: "Select which license you used. (4th option (blank space) if no license",
+			choices: ["Apache-2.0", "MIT", "MPL-2.0", ""],
 			},
 			// GITHUB USER INFO
 			{
