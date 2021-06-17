@@ -1,39 +1,39 @@
-# ksjdfldsj
+# Professional README
 
 
 ## Description
-kljsdfk
+This is a template to create a professional README for any project a developer may have.  
 
 ## License Badge and Link (if applicable)
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0) <br />
-[MPL-2.0 Link](https://opensource.org/licenses/MPL-2.0)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) <br />
+[Apache-2.0 Link](https://opensource.org/licenses/Apache-2.0)
 
   ## Table of Contents
-- [Description](https://github.com/lksdjf/professional-readme/blob/main/develop/README.md#description "Description")
-- [Installation](https://github.com/lksdjf/professional-readme/blob/main/develop/README.md#installation "Installation")
-- [Usage](https://github.com/lksdjf/professional-readme/blob/main/develop/README.md#usage "Usage")
-- [Contributing](https://github.com/lksdjf/professional-readme/blob/main/develop/README.md#contributing "Contributing")
-- [Tests](https://github.com/lksdjf/professional-readme/blob/main/develop/README.md#tests "Tests")
-- [License](https://github.com/lksdjf/professional-readme/blob/main/develop/README.md#license "License")
-- [Questions](https://github.com/lksdjf/professional-readme/blob/main/develop/README.md#questions "Questions")
+- [Description](https://github.com/marksherm04/professional-readme/blob/main/develop/README.md#description "Description")
+- [Installation](https://github.com/marksherm04/professional-readme/blob/main/develop/README.md#installation "Installation")
+- [Usage](https://github.com/marksherm04/professional-readme/blob/main/develop/README.md#usage "Usage")
+- [Contributing](https://github.com/marksherm04/professional-readme/blob/main/develop/README.md#contributing "Contributing")
+- [Tests](https://github.com/marksherm04/professional-readme/blob/main/develop/README.md#tests "Tests")
+- [License](https://github.com/marksherm04/professional-readme/blob/main/develop/README.md#license "License")
+- [Questions](https://github.com/marksherm04/professional-readme/blob/main/develop/README.md#questions "Questions")
 
 ## Installation
-kjsdfj
+NPM Install
 
 ## Usage
-sdkjlsdkjfklsdj
+Use for personal or professional projects
 
 ## Contributing
-jksdflk
+Mark Sherman
 
 ## Tests
-klsdjfl
+Test
 
 ## License
-MPL-2.0
+Apache-2.0
 
 
 ## View My Projects or Contact Me
 
-- Github Page: [lksdjf](https://github.com/lksdjf)
-- Email: lksjdfk
+- Github Page: [marksherm04](https://github.com/marksherm04)
+- Email: marksherm04@gmail.com
