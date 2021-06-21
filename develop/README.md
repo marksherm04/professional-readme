@@ -1,8 +1,8 @@
-# Professional README
+# Professional README creator
 
 
 ## Description
-This is a Professional README generator that can be used by anyone creating a project as a template
+This application allows a user to create a professional README for their personal or professional project. 
 
 ## License Badge and Link (if applicable)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) <br />
@@ -18,22 +18,21 @@ This is a Professional README generator that can be used by anyone creating a pr
 - [Questions](https://github.com/marksherm04/professional-readme/blob/main/develop/README.md#questions "Questions")
 
 ## Installation
-NPM Install
+NPM Install with allow user to acquire the inquirer package and run the program
 
 ## Usage
-You can use it for professional or personal projects and will list all pertinent information
+This will help the creator save time as it is a template for all of the information someone would need to understand the application project as an outsider.
 
 ## Contributing
 Mark Sherman
 
 ## Tests
-Test
+Tests pending
 
 ## License
 Apache-2.0
 
 
-## View My Projects or Contact Me
-
+## Questions
 - Github Page: [marksherm04](https://github.com/marksherm04)
 - Email: marksherm04@gmail.com

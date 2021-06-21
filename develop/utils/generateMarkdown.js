@@ -68,8 +68,7 @@ ${data.tests}
 ${data.license}
 
 
-## View My Projects or Contact Me
-
+## Questions
 - Github Page: [${data.githubUser}](https://github.com/${data.githubUser})
 - Email: ${data.email}
 `;
