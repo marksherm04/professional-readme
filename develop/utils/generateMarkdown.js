@@ -50,7 +50,7 @@ ${renderLicenseLink(data.license)}
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [License](#license)
-- [Questions](#questions)
+- [Questions](#githubUser)
 
 ## Installation
 ${data.installation}
