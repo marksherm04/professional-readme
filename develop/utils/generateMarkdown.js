@@ -44,13 +44,13 @@ ${renderLicenseBadge(data.license)} <br />
 ${renderLicenseLink(data.license)}
 
   ## Table of Contents
-- [Description](https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#description "Description")
-- [Installation](https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#installation "Installation")
-- [Usage](https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#usage "Usage")
-- [Contributing](https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#contributing "Contributing")
-- [Tests](https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#tests "Tests")
-- [License](https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#license "License")
-- [Questions](https://github.com/${data.githubUser}/professional-readme/blob/main/develop/README.md#questions "Questions")
+- [Description](#description)
+- [Installation](#dnstallation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
 
 ## Installation
 ${data.installation}
