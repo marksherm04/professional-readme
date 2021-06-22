@@ -9,7 +9,7 @@ This application allows a user to create a professional README for their persona
 - [Usage](#usage)
 - [Screenshot](#screenshot)
 - [Contributing](#contributing)
-- [Story] (#story)
+- [Story](#story)
 - [Project](#project)
 - [Questions](#questions)
 
