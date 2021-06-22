@@ -21,6 +21,7 @@ This provides a project creator a template to create a professional README.md.
 --- The application will be invoked by using the command node index.js and then answers the prompt questions
 
 ## Screenshot
+<img width="1320" alt="Screen Shot 2021-06-21 at 1 06 32 PM" src="https://user-images.githubusercontent.com/81338255/122949710-e0a64b00-d349-11eb-8c80-eba68e279222.png">
 
 
 ## Contributing
