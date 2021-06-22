@@ -9,13 +9,13 @@ This application allows a user to create a professional README for their persona
 [Apache-2.0 Link](https://opensource.org/licenses/Apache-2.0)
 
   ## Table of Contents
-- [Description](https://github.com/marksherm04/professional-readme/blob/main/develop/README.md#description "Description")
-- [Installation](https://github.com/marksherm04/professional-readme/blob/main/develop/README.md#installation "Installation")
-- [Usage](https://github.com/marksherm04/professional-readme/blob/main/develop/README.md#usage "Usage")
-- [Contributing](https://github.com/marksherm04/professional-readme/blob/main/develop/README.md#contributing "Contributing")
-- [Tests](https://github.com/marksherm04/professional-readme/blob/main/develop/README.md#tests "Tests")
-- [License](https://github.com/marksherm04/professional-readme/blob/main/develop/README.md#license "License")
-- [Questions](https://github.com/marksherm04/professional-readme/blob/main/develop/README.md#questions "Questions")
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
 
 ## Installation
 NPM Install with allow user to acquire the inquirer package and run the program
